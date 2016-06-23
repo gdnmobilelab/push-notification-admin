@@ -1,0 +1,82 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,700,500italic,900,700italic,900italic);
+
+.push-notification-admin {
+    margin-bottom: 10px;
+}
+
+.commands-to-add > .btn {
+    margin-left: 10px;
+}
+
+.commands-to-add > .btn:first-child {
+    margin-left: 0;
+}
+
+.active-commands > div {
+    margin-top: 10px;
+}
+
+.active-commands > div > div.options {
+    margin-top: 5px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.btn-danger {
+    margin-bottom: 15px;
+}
+
+.card .form-group {
+    margin: 0;
+}
+
+.card {
+    padding: 1.5rem;
+    box-shadow: 0 1px 2px #aaa;
+    background: white;
+    margin: 0 0 1rem;
+    border-radius: 3px;
+    user-select: none;
+}
+
+.card:after {
+    position: absolute;
+    font-size: .9rem;
+    top: 1.5rem;
+    right: 1rem;
+    content: "i";
+    border: thin solid gray;
+    color: gray;
+    width: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.alert {
+    position: fixed;
+    top: 0;
+    left: 5%;
+    width: 90%;
+    margin-top: 20px;
+    font-size: 18px;
+    z-index: 100
+}
+
+.image-uploader img {
+    margin-left: 5px;
+}
+
+.image-upload {
+    border: 1px dashed #333;
+    width: 200px;
+    height: 100px;
+}
+
+.image-thumbnail {
+    width: 15%;
+    height: auto;
+}
